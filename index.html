@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack IDE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="container-do-logo">
+            <img 
+                id="logo" 
+                src="https://raw.githubusercontent.com/bajpai244/workshopfilehosting/master/hackide/hackclublogo.png" 
+                alt="Logo do Hack Club" 
+                width="60px"
+            />
+        </div>
+        <div id="container-do-botao">
+            <button onclick="clicarNoBotao()"><b>RODAR CÓDIGO</b></button>
+        </div>
+    </header>
+
+    <main>
+        <div id="editor"></div>
+        <iframe src="" id="iframe"> </iframe>
+    </main>
+    <script 
+        src="http://ajaxorg.github.io/ace-builds/src-min-noconflict/ace.js" 
+        type="text/javascript" 
+        charset="utf-8"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
