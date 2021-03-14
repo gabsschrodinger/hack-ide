@@ -26,7 +26,6 @@ editor.setValue(`<html>
 
         .project-item {
             text-decoration: none;
-            color: #000;
         }
     </style>
 </head>
